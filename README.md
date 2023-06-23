@@ -1,6 +1,6 @@
 # Kyuhwan-Lee-Resume
 
-My resume written in LaTex. In my resume, you may find my contact information, websites, education, experience, projects, and skills.
+Professionally crafted with LaTex: My comprehensive curriculum vitae showcases essential contact details, website links, educational background, noteworthy professional undertakings, impactful projects, and a wide range of honed skills.
 
 ## Run on Terminal
 
@@ -21,4 +21,4 @@ My resume written in LaTex. In my resume, you may find my contact information, w
 - GitHub: https://github.com/kyuhwan720
 
 ## Special Thanks To...
-GitHub and Overleaf user @jakegut
+GitHub and Overleaf user @jakegut and @arasgungore for inspiration
