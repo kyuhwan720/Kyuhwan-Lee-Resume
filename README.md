@@ -1,2 +1,16 @@
 # Kyuhwan-Lee-Resume
-My resume written in LaTex.
+
+My resume written in LaTex. In my resume, you may find my contact information, websites, education, experience, projects, and skills.
+
+## Run on Terminal
+
+```
+  pdflatex main.tex
+```
+
+## Screenshots
+<div align="center">
+  
+  ![plot](/Kyuhwan_Lee_Resume.jpg)
+
+</div>
