@@ -1,0 +1,195 @@
+%-------------------------
+% Resume in Latex
+% Author : Kyuhwan Lee
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kyuhwan Lee} \\ \vspace{1pt}
+    \small 765-637-1584 $|$ \href{mailto:x@x.com}{\underline{lee3669@purdue.edu}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/kyuhwanl}} $|$
+    \href{https://github.com/...}{\underline{github.com/kyuhwan720}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{West Lafayette, IN}
+      {B.S - Computer Engineering Tech, Minor in CIT}{Aug. 2020 -- May 2026}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL, JavaScript, HTML/CSS, Ruby, VHDL, Verilog, MATLAB, R} \\
+     \textbf{Technologies}{: Git, React, Node.js, Quartus II, Docker, Linux, Windows Server, Microsoft Access} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cloud Security Engineer, Intern}{June 2022 -- Aug. 2022}
+      {ShinwooTNS}{Seoul, South Korea}
+      \resumeItemListStart
+        \resumeItem{Performed threat analysis in a 24/7 environment, gaining 99\% security in data.}
+        \resumeItem{Managed and created rules and policies for 5,000 end-users in the data protection area.}
+        \resumeItem{Successfully secured and monitored 5 websites with 0 major attacks.}
+        \resumeItem{Increased customer satisfaction ratings by 30\% by mapping new software features.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Assistant Bartender}{May 2022 -- June 2022}
+      {OB Bear Pub}{Seoul, South Korea}
+      \resumeItemListStart
+        \resumeItem{Assisted in the preparation and serving of drinks and food, ensuring customer satisfaction.}
+        \resumeItem{Demonstrated strong multitasking skills, efficiently handling both cleaning responsibilities and serving duties.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{Jan. 2022 -- May 2022}
+      {Purdue University}{West Lafayette, IN}
+      \resumeItemListStart
+          \resumeItem{Lab assistant for Data Acquisition and Systems Control class.}
+        \resumeItem{Guided 40+ students in understanding complex technical concepts.}
+        \resumeItem{Managed and maintained lab equipment worth \$15K, ensuring proper functionality.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{Autonomous Vehicle} $|$ \emph{C++, VHDL, MATLAB}}{Jan. 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Designed a Model Predictive Control system to utilize a mathematical model of the vehicle's dynamics.}
+            \resumeItem{Implemented control algorithms and steering angle adjustment strategies to track vehicle's trajectory.}
+            \resumeItem{Developed an application to identify impending rollover scenarios and initiate targeted brake interventions.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{PER22} $|$ \emph{C, Python, Docker, Git}}{Aug. 2022 -- Apr. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a PyQt application used to modify tracked variables and display live data on the car.}
+            \resumeItem{Designed an LCD dashboard with simple UI and basic page turning.}
+            \resumeItem{Supported creation of program to calculate weight transfer for finding optimal sprocket ratio.}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\textbf{AD LDAP Test Environment} $|$ \emph{Cato SASE Cloud, Node.js}}{June 2022 -- Present}
+          \resumeItemListStart
+              \resumeItem{Created LDAP protocol server in Node.js to configure automatic user provisioning.}
+            \resumeItem{Configured custom IP, Subnet mask, Default Gateway, and DNS Server Address.}
+            \resumeItem{Achieved improved user synchronization resulting in enhanced system integration and user management.}
+            \resumeItem{Generated comprehensive test plans utilizing JMeter and Wireshark to validate the functionality.}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\textbf{Icarus} $|$ \emph{C++, Git}}{Aug. 2021 -- May 2022}
+          \resumeItemListStart
+            \resumeItem{Implemented communication interface between the altimeter and computer for real-time data exchange.}
+            \resumeItem{Developed parachute deploying mechanism on predetermined altitude thresholds.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
