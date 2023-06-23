@@ -16,4 +16,4 @@ Professionally crafted with LaTex: My comprehensive curriculum vitae showcases e
 </div>
 
 ## Special Thanks To...
-GitHub and Overleaf user @jakegut and @arasgungore for inspiration
+GitHub and Overleaf user @jakegut and @arasgungore for inspiration and guidance!
